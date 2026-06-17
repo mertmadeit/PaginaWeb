@@ -1,58 +1,60 @@
-# Proyecto Unidad II: Mi Pasión en Línea
+# Proyecto Unidad II
+## Mi Pasión en Línea: Crea tu Primera Página Web
 
-## 📖 Introducción
-¡Bienvenido al mundo del desarrollo web! El objetivo de esta práctica es construir un sitio web desde cero sobre el tema que más te apasione en la vida (anime, deportes, historia del rock, etc.). Elegir algo que te emocione se reflejará en la autenticidad de tu proyecto.
+### Introducción
 
-Este será tu lienzo digital donde aplicarás los fundamentos de HTML y CSS para dar vida a tus ideas, cumpliendo con los requisitos técnicos para dar tus primeros pasos como desarrollador front-end.
+**Mi Pasión en Línea** es un proyecto de la Unidad II enfocado en crear una primera página web desde cero usando **HTML** y **CSS**. La práctica busca que el estudiante transforme una pasión, gusto o interés personal en un sitio web sencillo, organizado y visualmente atractivo.
 
-**Recurso de apoyo:** [Tutorial de W3Schools para diseño de layouts web](https://www.w3schools.com/css/css_website_layout.asp).
+En este proyecto se deja por un momento el enfoque tradicional de ecuaciones, algoritmos y ejercicios técnicos para trabajar la creatividad, la expresión personal y la presentación de contenido en un entorno digital.
 
-## 🎯 Objetivo de la Práctica
-Diseñar y desarrollar un sitio web estático, personal y creativo sobre una temática de tu interés.
-* Se deben aplicar correctamente los elementos básicos de HTML5 y las propiedades fundamentales de CSS3.
-* El sitio debe ser claro, atractivo visualmente y demostrar tu comprensión de la estructura de una página web.
+### Objetivo
 
-## ⚠️ Regla Estricta
-* **No se permite el uso de frameworks** (como Bootstrap o Foundation) ni plantillas prediseñadas.
-* El código debe ser 100% tuyo.
-* **NOTA:** No se calificarán proyectos que incumplan esta regla.
+Diseñar y desarrollar una página web sobre un tema de interés personal, aplicando correctamente la estructura básica de HTML y los estilos de CSS para presentar información clara, ordenada y atractiva.
 
-## 🛠️ Requerimientos Técnicos Mínimos
-Los siguientes elementos deben integrarse de forma natural dentro de la temática elegida.
+### Descripción del proyecto
 
-### 1. Estructura y Estilo (CSS)
-* Debes crear una o varias hojas de estilo CSS para definir la apariencia de tu sitio.
-* Utiliza selectores sencillos (de etiqueta, clase, ID).
-* Aplica propiedades como colores, fuentes, márgenes, rellenos (padding) y fondos para mejorar la estética.
-* El diseño debe contemplar un esquema visual que incluya: Encabezamiento, Menú de Navegación, Contenido Principal, Contenido lateral y Pie de página.
+El sitio web debe mostrar una pasión o tema significativo para el estudiante. Puede tratarse de música, deportes, anime, tecnología, fotografía, cocina, videojuegos, arte, historia, mascotas o cualquier otro tema que despierte interés.
 
-### 2. Contenido (HTML) - Elementos Fundamentales
-* **Título de página:** Un título descriptivo en la etiqueta `<title>`.
-* **Menú de navegación:** Uso de la etiqueta `<nav>` con enlaces a diferentes secciones del sitio.
-* **Párrafos:** Etiqueta `<p>` para describir tu pasión o contar historias.
-* **Formato de Texto:** Debes incluir `<br>` (salto), `<hr>` (separador), `<b>` (negrita), `<strong>` (importante), `<i>` (cursiva), `<em>` (énfasis), `<mark>` (resaltado) y `<small>` (aclaratorio).
-* **Contacto:** Etiqueta `<address>` para incluir tu información de contacto o redes sociales.
+La página debe reflejar la personalidad del autor mediante textos, imágenes, colores, secciones y estilos propios. Además, debe demostrar el uso correcto de etiquetas HTML, organización del contenido y diseño visual con CSS.
 
-### 3. Elementos Multimedia y de Organización
-* **Listas:** Debes usar listas ordenadas (`<ol>`) o desordenadas (`<ul>`).
-* **Imágenes:** Incluir al menos 3 imágenes representativas (`<img>`).
-* **Tablas:** Presentar información de forma ordenada (`<table>`).
-* **Enlaces:** Enlaces a sitios web relacionados (`<a>`) que deben abrirse obligatoriamente en una pestaña nueva.
-* **Videos:** Al menos un video relacionado, ya sea descargado (`<video>`) o insertado desde YouTube/Vimeo (`<iframe>`).
+### Tecnologías utilizadas
 
-### 4. Interacción (Formulario de Contacto)
-Debes crear un formulario (no funcional) que contenga:
-* Campos de texto (nombre, email).
-* Etiquetas (`<label>`) para cada campo.
-* Botones de opción (`radio`).
-* Casillas de verificación (`checkbox`).
-* Área de texto (`textarea`) para mensajes largos.
-* Un botón de envío (`<button type="submit">` o `<input type="submit">`).
+- HTML5
+- CSS3
+- Visual Studio Code u otro editor de código
+- Navegador web para pruebas
 
-## 📦 Entregable y Evaluación
-El proyecto completo deberá ser subido a un repositorio en **GitHub** y estar alojado en línea mediante un servicio de **hosting**. Deberás entregar ambas direcciones (repositorio y sitio en vivo).
+### Requisitos principales
 
-### Criterios de Calificación:
-* **Cumplimiento técnico (60%):** Presencia y correcto uso de todos los elementos HTML y CSS solicitados.
-* **Creatividad y temática (25%):** Originalidad e integración lógica de los elementos dentro de tu tema.
-* **Diseño y organización (15%):** Estructura clara, facilidad de navegación y estética visual a través de CSS.
+- Crear una página principal llamada `index.html`.
+- Utilizar una hoja de estilos CSS externa.
+- Incluir títulos, párrafos, imágenes y secciones organizadas.
+- Aplicar colores, fuentes y estilos relacionados con el tema elegido.
+- Mantener una estructura clara y ordenada en el código.
+- Presentar un diseño limpio, atractivo y fácil de comprender.
+
+### Estructura sugerida
+
+```text
+PaginaWeb/
+├── index.html
+├── css/
+│   └── estilos.css
+├── img/
+│   └── imagenes-del-proyecto
+└── README.md
+```
+
+### Resultado esperado
+
+Al finalizar, se espera obtener una página web funcional que represente una pasión personal y demuestre el uso básico de HTML y CSS. El sitio debe comunicar claramente el tema seleccionado y ofrecer una experiencia visual agradable para el usuario.
+
+### Conclusión
+
+Este proyecto permite comprender la importancia de la estructura, el diseño y la organización dentro de una página web. También ayuda a desarrollar habilidades iniciales de front-end mientras el estudiante expresa sus intereses de una manera creativa y auténtica.
+
+### Autor
+
+- Nombre: Arian Meraz
+- Proyecto: Unidad II
+- Tema: Mi Pasión en Línea
